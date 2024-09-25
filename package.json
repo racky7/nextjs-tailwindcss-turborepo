@@ -1,0 +1,20 @@
+{
+  "name": "tealfeed-builder",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "dev": "turbo watch dev",
+    "build": "turbo build",
+    "lint": "turbo lint",
+    "format": "turbo format"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@9.2.0",
+  "devDependencies": {
+    "turbo": "^2.1.2",
+    "@tealfeed-builder/config": "workspace:*"
+  }
+}
